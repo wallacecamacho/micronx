@@ -1,0 +1,29 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@micronx/ui": ["libs/ui/src/index.ts"],
+      "@micronx/micro-app": ["libs/micro-app/src/index.ts"],
+      "@micronx/micro-app-form": ["libs/micro-app-form/src/index.ts"],
+      "@micronx/micro-app-layout": ["libs/micro-app-layout/src/index.ts"],
+      "@micronx/core": ["libs/core/src/index.ts"],
+      "@micronx/theme": ["libs/theme/src/index.ts"],
+      "@micronx/pages": ["libs/pages/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
