@@ -10,8 +10,8 @@ import { Component } from '@angular/core';
     <div class="socials">
       <a href="https://www.github.com/wallacecamacho" target="_blank" class="ion ion-social-github"></a>
       <a href="#" target="_blank" class="ion ion-social-facebook"></a>
-      <a href="#" target="_blank" class="ion ion-social-twitter"></a>
-      <a href="#" target="_blank" class="ion ion-social-linkedin"></a>
+      <a href="https://twitter.com/camacho_wallace" target="_blank" class="ion ion-social-twitter"></a>
+      <a href="https://www.linkedin.com/in/wallace-camacho/" target="_blank" class="ion ion-social-linkedin"></a>
     </div>
   `,
 })
